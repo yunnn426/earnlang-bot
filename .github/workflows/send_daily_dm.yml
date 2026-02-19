@@ -2,8 +2,8 @@ name: Earn-Language-Bot
 
 on:
   schedule:
-    # 테스트: KST 02:45 (UTC 17:45)
-    - cron: "45 17 * * *"
+    # 테스트: KST 03:15 (UTC 18:15)
+    - cron: "15 18 * * *"
   workflow_dispatch: # 수동 실행 지원
 
 jobs:
